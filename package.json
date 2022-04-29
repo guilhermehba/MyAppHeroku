@@ -1,0 +1,23 @@
+{
+  "name": "nova-pasta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "json-server --watch db.json --port 3000",
+    "start": " node server.js ng s -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermehba/MyAppHeroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermehba/MyAppHeroku/issues"
+  },
+  "homepage": "https://github.com/guilhermehba/MyAppHeroku#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
